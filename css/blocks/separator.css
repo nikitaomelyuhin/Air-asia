@@ -1,0 +1,19 @@
+.separator {
+  margin-top: 85px;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(/images/decor/couple.png) right 20% bottom no-repeat,
+  url(/images/bg/middleline.jpg);
+}
+
+.separator__content {
+  width: 40%;
+}
+
+.separator__title {
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+}

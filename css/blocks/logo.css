@@ -1,0 +1,8 @@
+.logo {
+  display: block;
+  width: 98px; 
+}
+
+.logo__img {
+  width: 100%;
+}

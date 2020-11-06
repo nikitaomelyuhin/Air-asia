@@ -1,0 +1,63 @@
+.contacts__phone {
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1;
+}
+
+.contacts__shedule {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.contacts__shedule-title {
+  font-size: 13px;
+  color: #fff;
+  font-style: normal;
+  cursor: pointer;
+  text-decoration: underline;
+  line-height: 1;
+}
+
+.contacts__shedule-content {
+  position: absolute;
+  right: 9999px;
+  opacity: 0;
+}
+
+
+.contacts__shedule-title:hover ~ .contacts__shedule-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 22px;
+  line-height: 1.55;
+  right: -3px;
+  background-color: #d7dbdb;
+  border-radius: 5px;
+  padding: 15px;
+  opacity: 1;
+  transition: opacity .3s linear;
+}
+
+.contacts__shedule-content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: 55%;
+  width: 20px;
+  height: 20px;
+  background-color: #d7dbdb;
+  transform: rotate(45deg);
+}
+
+.contacts__shedule-menu-item {
+  font-size: 13px;
+  font-style: normal;
+  color: #18191b;
+}
+

@@ -1,0 +1,11 @@
+.tags__elem {
+  cursor: pointer;
+}
+
+.tags__checkbox {
+  display: none;
+}
+
+.tags__checkbox:checked ~ .tag {
+  background-color: #b9eae4;
+}

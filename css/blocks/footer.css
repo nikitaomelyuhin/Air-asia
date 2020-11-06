@@ -1,0 +1,56 @@
+.footer {
+  margin-top: auto;
+  min-height: 148px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer__main-page {
+  border-top: 1px solid #1a3038;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__contacts--contacts .contacts__shedule-title {
+  color: #9b9b9b;
+  font-size: 11px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer__socials {
+  margin-right: 72px;
+  display: flex;
+  width: 177px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.footer__socials-link {
+  display: block;
+  min-height: 38px;
+  width: 38px;
+}
+
+.footer__socials-pic {
+  opacity: .2;
+}
+
+.footer__socials-link:hover .footer__socials-pic {
+  opacity: .4;
+}
+
+.footer__services {
+  background-color: #001821;
+}

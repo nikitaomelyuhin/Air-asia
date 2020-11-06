@@ -1,0 +1,21 @@
+.review__tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review__tag {
+  margin: 0 5px 5px 0;
+}
+
+.tag {
+  display: flex;
+  font-size: 13px;
+  color: #303030;
+  padding: 8px 17px;
+  border-radius: 50px;
+  background: #e7e7e7;
+}
+
+.tag--color--green {
+  background: #b9eae4;
+}

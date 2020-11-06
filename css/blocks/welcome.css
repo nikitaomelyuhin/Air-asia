@@ -1,0 +1,62 @@
+.welcome {
+  background: url(/images/bg/screen.jpg) center center;
+  height: 100%;
+}
+
+.welcome-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background: url(/images/decor/shades.png) center top 38% no-repeat;
+}
+
+.welcome__central {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: zoom 1s ease-in forwards;
+}
+
+.welcome__logo {
+  height: 125px;
+  width: 275px;
+}
+
+.welcome__logo-pic {
+  max-width: 100%;
+}
+
+.welcome__text {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(.7);
+  }
+
+  20% {
+    transform: scale(1.15);
+  }
+
+  40% {
+    transform: scale(.9);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  80% {
+    transform: scale(.95);
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
