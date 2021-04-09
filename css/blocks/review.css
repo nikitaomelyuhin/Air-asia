@@ -45,7 +45,7 @@
 }
 
 .review__username:after {
-  content: url('/images/icons/socials/vk-blue.png');
+  content: url('../../images/icons/socials/vk-blue.png');
   height: 30px;
   margin-left: 5px;
 }

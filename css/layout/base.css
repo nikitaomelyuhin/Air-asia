@@ -31,7 +31,7 @@ body {
 }
 
 .hero-wrap {
-  background: url(/images/bg/headline.jpg) top center / cover no-repeat;
+  background: url(../../images/bg/headline.jpg) top center / cover no-repeat;
 }
 
 .container {

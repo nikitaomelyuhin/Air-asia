@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(/images/decor/couple.png) right 20% bottom no-repeat,
-  url(/images/bg/middleline.jpg);
+  background: url(../../images/decor/couple.png) right 20% bottom no-repeat,
+  url(../../images/bg/middleline.jpg);
 }
 
 .separator__content {

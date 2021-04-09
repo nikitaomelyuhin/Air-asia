@@ -1,5 +1,5 @@
 .welcome {
-  background: url(/images/bg/screen.jpg) center center;
+  background: url(../../images/bg/screen.jpg) center center;
   height: 100%;
 }
 
@@ -7,7 +7,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  background: url(/images/decor/shades.png) center top 38% no-repeat;
+  background: url(../../images/decor/shades.png) center top 38% no-repeat;
 }
 
 .welcome__central {
